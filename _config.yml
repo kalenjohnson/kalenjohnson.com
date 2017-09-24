@@ -1,0 +1,43 @@
+title: Hello, world! I'm David Freeman
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://kalenjohnson.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author Settings
+author: Kalen Johnson
+author-img: https://gravatar.com/avatar/4736921f86c3da713c7f856025ff1664?s=400
+about-author: Web developer back in Canada. A wife, two boys, and work keep me rather busy
+twitter: kalenjohnson
+facebook:
+github: kalenjohnson
+linkedin: kalenjohnson
+email: info@kalenjohnson.com
+
+# Disqus
+discus-identifier: kalenjohnson # add your discus identifier
+
+# Tracker
+analytics: UA-28163714
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: assets/stylesheets
+
+exclude: [
+  "node_modules",
+  "gulpfile.js",
+  "package.json",
+  "yarn.lock",
+  "Gemfile",
+  "Gemfile.lock",
+  "LICENSE",
+  "README.md"
+]
